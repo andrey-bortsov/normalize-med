@@ -1,3 +1,6 @@
+Author: Andrey Bortsov
+Date: 1 31 2017
+
 The purpose of the scripts normalizeMed.sh and normInBatch.sh is to normalize and classify medication data using the online RxNorm and RxClass API.
 
 Input: one medication per line, brand names are allowed, may (but not need to)
@@ -18,3 +21,4 @@ Setup instructions:
   ./normalizeMed.sh
 
 The output is saved in normalizedMed1.csv, normalizedMed2.csv, etc, one file per input file.
+
